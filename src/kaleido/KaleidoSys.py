@@ -12,7 +12,7 @@ import torch.nn.functional as F
 # from transformers import RobertaTokenizer, RobertaForSequenceClassification
 
 class KaleidoSys:
-    def __init__(self, model_name='tsor13/kaleido-small', embed_model_name='sentence-transformers/all-mpnet-base-v2', device="cuda" if torch.cuda.is_available() else "cpu", use_tqdm=True):
+    def __init__(self, model_name='allenai/kaleido-small', embed_model_name='sentence-transformers/all-mpnet-base-v2', device="cuda" if torch.cuda.is_available() else "cpu", use_tqdm=True):
         self.model_name = model_name
         self.embed_model_name = embed_model_name
         self.device = device
@@ -549,7 +549,7 @@ class KaleidoSys:
         return probs
 
 if __name__ == '__main__':
-    system = KaleidoSys(model_name='tsor13/kaleido-small')
+    system = KaleidoSys(model_name='allenai/kaleido-small')
 
     while True:
         action = input('Action: ')
