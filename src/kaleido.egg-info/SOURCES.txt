@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/kaleido/KaleidoSys.py
+src/kaleido/__init__.py
+src/kaleido.egg-info/PKG-INFO
+src/kaleido.egg-info/SOURCES.txt
+src/kaleido.egg-info/dependency_links.txt
+src/kaleido.egg-info/requires.txt
+src/kaleido.egg-info/top_level.txt

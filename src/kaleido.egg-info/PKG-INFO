@@ -1,0 +1,13 @@
+Metadata-Version: 1.2
+Name: kaleido
+Version: 0.0.1
+Summary: Value Kaleidoscope
+Home-page: UNKNOWN
+Author: Taylor Sorensen
+Author-email: tsor13@cs.washington.edu
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
