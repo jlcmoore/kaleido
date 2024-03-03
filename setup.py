@@ -4,7 +4,7 @@ with open("requirements.txt", "r") as file:
     requirements = file.read().splitlines()
 
 setuptools.setup(
-    name="kaleido-sys",
+    name="kaleidosys",
     version="0.0.1",
     author="Taylor Sorensen",
     author_email="tsor13@cs.washington.edu",
